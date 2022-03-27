@@ -50,6 +50,29 @@ header nav a {
 
 /* --- MAIN --- */ 
 /* "landing" */
+section.landing container.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.landing .left {
+    width: 60%;
+    height: auto;
+    padding: 0;
+    margin: 32px 24px;
+    overflow: hidden;
+}
+
+section.landing .left img {
+    width: 100%;
+    height: auto;
+}
+
+section.landing .right h1 {
+    font-size: 48px;
+}
+
 
 
 /* "information" */
