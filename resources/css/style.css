@@ -64,7 +64,7 @@ section.landing container.flex {
 }
 
 section.landing .left {
-    width: 60%;
+    max-width: 60%;
     height: auto;
     padding: 0;
     margin: 32px 24px;
@@ -94,7 +94,36 @@ section.landing .right h3 {
 
 
 /* "information" */
-.information {
+section.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: whitesmoke;
+}
+
+section.information container.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1250px;
+}
+
+section.information .left {
+    max-width: 60%;
+    height: auto;
+    padding: 0;
+    margin: 32px 24px;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column;
+}
+
+section.information .left img {
+    width: 100%;
+    height: auto;
+}
+
+section.information .right {
+    max-width: 40%;
 }
 
