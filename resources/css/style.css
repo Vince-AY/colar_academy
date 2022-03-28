@@ -50,10 +50,17 @@ header nav a {
 
 /* --- MAIN --- */ 
 /* "landing" */
+section.landing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 section.landing container.flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1250px;
 }
 
 section.landing .left {
@@ -69,10 +76,21 @@ section.landing .left img {
     height: auto;
 }
 
-section.landing .right h1 {
-    font-size: 48px;
+section.landing .right {
+    max-width: 40%;
 }
 
+section.landing .right h1 {
+    font-size: 48px;
+    margin: 0px 12px;
+    padding-bottom: 12px;
+}
+
+section.landing .right h3 {
+    font-size: 32px;
+    margin: 0px 12px;
+    padding-bottom: 12px;
+}
 
 
 /* "information" */
