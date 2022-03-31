@@ -109,7 +109,7 @@ section.information container.flex {
 }
 
 section.information .left {
-    max-width: 60%;
+    max-width: 55%;
     height: auto;
     padding: 0;
     margin: 32px 24px;
@@ -134,18 +134,31 @@ section.information .right {
 
 section.information .right div {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-flow: row nowrap;
     align-items: center;  
 }
 
 section.information .right picture {
    display: flex;
-   max-width: 35%;
-   overflow: hidden;
+   min-width: 35%;
+    overflow: hidden;
+   padding: 0;
+   margin: 10px 8px;
 }
 
 section.information .right img {
     width: 100%;
     height: auto;
+}
+
+section.information .right span {
+    max-width: 65%;
+    padding: 0;
+    margin: 10px 8px;
+}
+
+section.information .right h3, section.information .right p {
+    max-width: 100%;
+    padding: 0;
 }
