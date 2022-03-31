@@ -132,7 +132,20 @@ section.information .right {
     flex-flow: column;
 }
 
-section.information .right picture {
-    width: 30%;
+section.information .right div {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+    align-items: center;  
 }
 
+section.information .right picture {
+   display: flex;
+   max-width: 35%;
+   overflow: hidden;
+}
+
+section.information .right img {
+    width: 100%;
+    height: auto;
+}
