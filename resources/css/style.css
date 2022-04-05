@@ -50,20 +50,20 @@ header nav a {
 
 /* --- MAIN --- */ 
 /* "landing" */
-container.landing {
+div.landing {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-container.landing section.flex {
+div.landing section.flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1250px;
 }
 
-container.landing .left {
+div.landing .left {
     max-width: 60%;
     height: auto;
     padding: 0;
@@ -71,22 +71,22 @@ container.landing .left {
     overflow: hidden;
 }
 
-container.landing .left img {
+div.landing .left img {
     width: 100%;
     height: auto;
 }
 
-container.landing .right {
+div.landing .right {
     max-width: 40%;
 }
 
-container.landing .right h1 {
+div.landing .right h1 {
     font-size: 48px;
     margin: 0px 12px;
     padding-bottom: 12px;
 }
 
-container.landing .right h3 {
+div.landing .right h3 {
     font-size: 32px;
     margin: 0px 12px;
     padding-bottom: 12px;
@@ -94,21 +94,21 @@ container.landing .right h3 {
 
 
 /* "information" */
-container.information {
+div.information {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: whitesmoke;
 }
 
-container.information section.flex {
+div.information section.flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1250px;
 }
 
-container.information .left {
+div.information .left {
     max-width: 55%;
     height: auto;
     padding: 0;
@@ -118,12 +118,12 @@ container.information .left {
     flex-flow: column;
 }
 
-container.information .left img {
+div.information .left img {
     width: 100%;
     height: auto;
 }
 
-container.information .right {
+div.information .right {
     max-width: 40%;
     padding: 0;
     margin: 32px 24px;
@@ -132,14 +132,14 @@ container.information .right {
     flex-flow: column;
 }
 
-container.information .right div {
+div.information .right div {
     display: flex;
     justify-content: space-between;
     flex-flow: row nowrap;
     align-items: center;  
 }
 
-container.information .right picture {
+div.information .right picture {
    display: flex;
    min-width: 35%;
     overflow: hidden;
@@ -147,18 +147,18 @@ container.information .right picture {
    margin: 10px 8px;
 }
 
-container.information .right img {
+div.information .right img {
     width: 100%;
     height: auto;
 }
 
-container.information .right span {
+div.information .right span {
     max-width: 65%;
     padding: 0;
     margin: 10px 8px;
 }
 
-container.information .right h3, container.information .right p {
+div.information .right h3, div.information .right p {
     max-width: 100%;
     padding: 0;
 }
