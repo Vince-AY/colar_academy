@@ -121,6 +121,7 @@ div.information .left {
 div.information .left img {
     width: 100%;
     height: auto;
+    padding-top: 24px;
 }
 
 div.information .right {
@@ -136,13 +137,15 @@ div.information .right div {
     display: flex;
     justify-content: space-between;
     flex-flow: row nowrap;
-    align-items: center;  
+    align-items: center;
+    max-height: 250px;
 }
 
 div.information .right picture {
    display: flex;
    min-width: 35%;
-    overflow: hidden;
+   max-width: 40%;
+   overflow: hidden;
    padding: 0;
    margin: 10px 8px;
 }
@@ -152,8 +155,8 @@ div.information .right img {
     height: auto;
 }
 
-div.information .right span {
-    max-width: 65%;
+div.information .right container {
+    max-width: 50%;
     padding: 0;
     margin: 10px 8px;
 }
@@ -162,3 +165,14 @@ div.information .right h3, div.information .right p {
     max-width: 100%;
     padding: 0;
 }
+
+/* Course */
+
+div.course section h2 {
+    font-size: 48px;
+    margin: 0px 12px;
+    padding: 32px;
+    text-align: center;
+}
+
+
